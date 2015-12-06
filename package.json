@@ -1,0 +1,15 @@
+{
+  "name": "wss-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "tsc app.ts --module commonjs --outDir dist"
+  },
+  "author": "seibe",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^0.8.1"
+  }
+}
